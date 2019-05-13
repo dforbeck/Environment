@@ -11,6 +11,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Environment.WebMVC.Models;
+using Environment.Data;
 
 namespace Environment.WebMVC
 {

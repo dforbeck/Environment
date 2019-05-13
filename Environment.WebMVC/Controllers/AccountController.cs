@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Environment.WebMVC.Models;
+using Environment.Data;
 
 namespace Environment.WebMVC.Controllers
 {
