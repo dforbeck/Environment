@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Environment.Data
 {
-    class Product
+    class Products
     {
         [Key]
         public int ProductID { get; set; }
