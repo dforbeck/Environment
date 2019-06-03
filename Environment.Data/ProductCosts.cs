@@ -10,12 +10,14 @@ namespace Environment.Data
     class Costs
     {
         [Key]
-        public int CostItem { get; set; }
+        public int CostItemID { get; set; }
+        public int ProductsID { get; set; }
+
         public double CostWithTRACI { get; set; }
         public double CostsWOTRACI { get; set; }
 
-        public virtual Products ProductID { get; set; }
+        public virtual Products Products { get; set; }
     }
 
 }
-}
+
